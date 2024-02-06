@@ -1,18 +1,15 @@
 ---
-layout: page
-title: About
+layout: default
+title: About Us
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Daniel Peaslee
+![Daniel Peaslee](/assets/images/danielpeaslee.jpeg)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Daniel Peaslee is an accomplished writer and filmmaker
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# Sophia Peaslee
+![Sophia Peaslee](/assets/images/sophiapeaslee.jpeg)
 
-
-[jekyll-organization]: https://github.com/jekyll
+Sophia Peaslee spent much of her childhood overseas as a part of a Foreign Service family, instilling a long love of politics and a fascination with the stories we share across cultures. A career as a software engineer has given her a lot of fear and hope for the future technology promises us. An avid lock-sport enthusiast Sophia is interested in the stories that unlock what it means to be human.
