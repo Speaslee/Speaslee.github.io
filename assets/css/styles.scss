@@ -13,8 +13,8 @@
  *= require_tree .
  *= require_self
  */
- 
- h1 {
+ @import "{{ site.theme }}";
+ h1 a{
     font-family: "Streetwear";
     color: #e80c7f  !important;;
 }
