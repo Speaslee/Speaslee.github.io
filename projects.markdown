@@ -6,7 +6,7 @@ layout: default
 ---
 |  Podcasts    |             |
 | ----------- | ----------- |
-| [Adrift in a Silent Sea](/adrift)      | For Movie reasons       |
+| [Adrift in a Silent Sea](/adrift) <br> <img src="/assets/images/adriftimages/s84-27018orig.jpg" alt="Episode 1" class="episode-thumbnail"/>   | For Movie reasons       |
 |  Movies    |             |
 | ----------- | ----------- |
 | Kima  |      |
