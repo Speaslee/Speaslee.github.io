@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/styles.css">
 
@@ -30,23 +31,27 @@
       <section>
         <div class="default-formating">
             <h1 id="daniel-peaslee">Daniel Peaslee</h1>
-        <p><img src="/assets/images/headshots/danielpeaslee.jpeg" alt="Daniel Peaslee" class="headshot"></p>
-        
-        <p>{{page.daniel-copy}}</p>
-        
-        <h1 id="sophia-peaslee">Sophia Peaslee</h1>
-        <p><img src="/assets/images/headshots/sophiapeaslee.jpeg" alt="Sophia Peaslee" class="headshot"></p>
-        
-        <p>{{page.sophia-copy}}</p>
-        
+            <p><img src="/assets/images/headshots/danielpeaslee.jpeg" alt="Daniel Peaslee" class="headshot"></p>
+            
+            <p>{{page.daniel-copy}}</p>
+            
+            <h1 id="sophia-peaslee">Sophia Peaslee</h1>
+            <p><img src="/assets/images/headshots/sophiapeaslee.jpeg" alt="Sophia Peaslee" class="headshot"></p>
+            <div class="socialmedia">
+                <a href="https://twitter.com/sopeaslee"><i class="fa fa-twitter"></i></a> <a href="https://www.instagram.com/speaslee/"><i class="fa fa-instagram"></i></a>  <a href="https://www.linkedin.com/in/sophiapeaslee/"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>{{page.sophia-copy}}</p>
+            
         </div>
-
-
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
+        <div class="container text-center">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"></a><i class="fa-brands fa-patreon"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
