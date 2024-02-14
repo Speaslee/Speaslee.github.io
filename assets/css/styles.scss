@@ -16,6 +16,24 @@
  *= require_self
  */
 
+//  Base Styles
+img {
+    margin: auto;
+    max-width: 100%;
+}
+
+html {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit; 
+    -moz-box-sizing: inherit; 
+    box-sizing: inherit;
+}
+
+//Other syles to be added respective their pages
 #daniel-peaslee{
     font-family: "Streetwear";
     color: #e80c7f  !important;
@@ -73,3 +91,4 @@
     left: 10%;
     position: relative;
 }
+
