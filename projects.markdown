@@ -4,6 +4,11 @@
 
 layout: default
 ---
-# Podcasts
-# Movies
-# Writing
+|  Podcasts    |             |
+| ----------- | ----------- |
+| [Adrift in a Silent Sea](/adrift)      | For Movie reasons       |
+|  Movies    |             |
+| ----------- | ----------- |
+| Kima  |      |
+|  Other   |             |
+| ----------- | ----------- |
