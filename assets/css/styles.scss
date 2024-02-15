@@ -13,14 +13,53 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_tree .
- *= require_self
- */
+*= require_self
+  */
+
+ //  Base Styles
+ img {
+    margin: auto;
+    max-width: 100%;
+}
+
+html {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit; 
+    -moz-box-sizing: inherit; 
+    box-sizing: inherit;
+}
+.footer {
+    position: relative;
+}
+
+@font-face {
+    font-family: "Streetwear";
+    src: url(/fonts/streetware.eot);
+    src: url(/fonts/Streetwear.otf) format('opentype'),
+         url(/fonts/streetwear-webfont.ttf) format('truetype'),
+        url(/fonts/streetwear-webfont.woff2) format('woff2'),
+         url(/fonts/streetwear-webfont.woff) format('woff'),
+         url(/fonts/streetwear-webfont.svg) format('svg');
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url(/fonts/Futura.ttc);
+}
 
 #daniel-peaslee{
     font-family: "Streetwear";
     color: #e80c7f  !important;
 }
 #sophia-peaslee{
+    font-family: "Streetwear";
+    color: #e80c7f  !important;
+}
+#chilaquiles{
     font-family: "Streetwear";
     color: #e80c7f  !important;
 }
@@ -33,6 +72,23 @@
     font-family: "Streetwear";
     color: #e80c7f  !important;
   }
+.header-link {
+    font-family: "Streetwear";
+    color: #e80c7f  !important;
+    line-height: 45px;
+}
+.title-class{
+    color:#DA1E48 !important;
+    font-family: "Futura";
+    font-size: 20px;
+}
+.sidebar-links {
+    font-family: "Futura";
+    color: #DA1E48  !important;; 
+}
+.fa {
+    color: #DA1E48  !important;; 
+}
 .episode-thumbnail {
     height: 140px;
 }
@@ -52,24 +108,30 @@
     padding-left: 10px;
     border-top: black 2px solid;
 }
+.visability {
+    background-color: rgba(0,0,0,0.75);
+}
 .bgimage {
-    background-image: url(/assets/images/nebula.gif); 
+    background-image: url(/assets/images/adriftimages/adriftbackground.jpeg); 
+    height: 100%;
     background-repeat: no-repeat; 
     background-size: cover;
     font-family: "Futura" !important;
-    color:aliceblue !important;
+    color:rgb(244, 245, 246) !important;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     font-size: large;
 }
-
+.adrift-wrapper{
+    background-color: rgba(64, 28, 46, 0.9);
+    padding-top: 15px;
+}
 .adrift {
-    position: fixed; /* or absolute */
     top: 10%;
     text-align: center;
 }
 .adrift-copy {
     text-align:left;
-    left: 10%;
+    padding-left: 10px;
     position: relative;
 }
