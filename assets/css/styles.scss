@@ -32,6 +32,9 @@ html {
     -moz-box-sizing: inherit; 
     box-sizing: inherit;
 }
+.footer {
+    position: relative;
+}
 
 //Other syles to be added respective their pages
 #daniel-peaslee{
@@ -82,9 +85,10 @@ html {
 }
 
 .adrift {
-    position: fixed; /* or absolute */
+    //position: fixed; /* or absolute */
     top: 10%;
     text-align: center;
+    overflow-y: scroll;
 }
 .adrift-copy {
     text-align:left;
