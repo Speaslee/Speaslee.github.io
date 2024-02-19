@@ -34,13 +34,16 @@ html {
 }
 .footer {
     position: relative;
-    bottom: 0px;
+    bottom: 5px;
+    text-aligin: center;
+    width: 100%;
 }
 
-.adrift-title{
-    color:rgb(244, 245, 246) !important;
+hr {
+    background-color: #e80c7f  !important;
 }
 
+// Font Formating
 @font-face {
     font-family: "Streetwear";
     src: url(/fonts/streetware.eot);
@@ -56,18 +59,24 @@ html {
     src: url(/fonts/Futura.ttc);
 }
 
-#daniel-peaslee{
+a {
+    color: #DA1E48 !important;
+}
+
+.fa {
+    color: #DA1E48  !important;
+}
+.header-class{
     font-family: "Streetwear";
     color: #e80c7f  !important;
 }
-#sophia-peaslee{
+
+.header-link {
     font-family: "Streetwear";
     color: #e80c7f  !important;
+    line-height: 45px;
 }
-#chilaquiles{
-    font-family: "Streetwear";
-    color: #e80c7f  !important;
-}
+
 .homepage_title {
     position: relative;
     display: flex;
@@ -77,47 +86,36 @@ html {
     font-family: "Streetwear";
     color: #e80c7f  !important;
   }
-.header-link {
+
+  .project-header {
+    color:#e80c7f !important;
     font-family: "Streetwear";
-    color: #e80c7f  !important;
-    line-height: 45px;
 }
-.title-class{
+.sidebar-links {
+    font-family: "Futura";
+    color: #DA1E48  !important;
+}
+  .title-class {
     color:#DA1E48 !important;
     font-family: "Futura";
     font-size: 20px;
 }
-.sidebar-links {
-    font-family: "Futura";
-    color: #DA1E48  !important;; 
-}
-.fa {
-    color: #DA1E48  !important;; 
-}
+// Image Formating
 .episode-thumbnail {
     height: 140px;
 }
 .headshot {
     height: 200px;
 }
-.episode-table {
-    width: 85%;
-    position: relative;
-    background-color: rgba(160,70,116,0.5);
-    left: 10%;
+
+// Project Specific
+.adrift-title{
+    color:rgb(244, 245, 246) !important;
 }
-.episode-cells {
-    padding-right: 10px;
-    width: 30%;
-    text-align: left;
-    padding-left: 10px;
-    border-top: black 2px solid;
-}
-.visability {
+.adrift-visability {
     background-color: rgba(0,0,0,0.75);
 }
-.bgimage {
-    background-image: url(/assets/images/adriftimages/adriftbackground.jpeg); 
+.adrift-bgimage {
     height: 100%;
     background-repeat: no-repeat; 
     background-size: cover;
@@ -130,13 +128,56 @@ html {
 .adrift-wrapper{
     background-color: rgba(64, 28, 46, 0.9);
     padding-top: 15px;
+    height: 100%;
 }
 .adrift {
     top: 10%;
     text-align: center;
 }
-.adrift-copy {
-    text-align:left;
-    padding-left: 10px;
-    position: relative;
+.adrift-episode-stye{
+    color:rgb(244, 245, 246) !important;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
+// Grid formatting
+.collection-four-columns {
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: dense;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 25px;
+    grid-template-columns: repeat(4, 1fr);
+    
+    //--- JUST VISUAL STYLING BELOW
+      margin: 60px auto;
+      max-width: 800px;
+  }
+  .collection-three-columns {
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: dense;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    
+    //--- JUST VISUAL STYLING BELOW
+      margin: 60px auto;
+      max-width: 800px;
+  } 
+  .projects {
+      margin: 60px auto;
+      margin-top: 0px;
+      max-width: 800px;
+  } 
+
+.episode {
+    &__image {
+       display: block;
+       height: 150px;
+    }
+    &__name {
+        font-family: "Futura" !important;
+        font-size: large;
+        font-weight: bold;
+    }
+   }

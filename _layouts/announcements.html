@@ -1,0 +1,11 @@
+---
+ layout: sidebar
+---
+<h1 class="header-link">Our Updates and Announcements</h1>
+<ul>
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}" class="sidebar-links">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+</ul>

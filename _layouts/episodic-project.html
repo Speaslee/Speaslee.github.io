@@ -1,0 +1,68 @@
+---
+ layout: full-width
+---
+ <body>
+    {% if page.background-image %}
+        <style class={{ background-style }}>
+            body {
+                background-image: url({{ page.background-image }})
+            }
+        </style>
+    {% endif %}
+    <div class="wrapper{% if page.div-styl%} {{page.div-style}}{% endif %}">
+        <div class={{ page.style }}>
+            <h1 class={{ page.title-style }}>{{ page.title }}</h1>
+            <div class>
+                <p> {{ page.series-summary }}</p>
+            </div>
+            <div class={{ page.grid-style }}>
+                {% for episode in page.episodes %}
+                    <div class="episode">
+                        <div class="episode__name{% if grid-title-style%} {{page.grid-title-style}}{% endif %}">{{ episode.episode-title }}</div>
+                        <img src={{ episode.episode-thumbnail }} class="episode__image">
+                    </div>
+                    <div class="episode">
+                        <div class="episode__summary">{{ episode.episode-summary }}</div>
+                    </div>
+                    {% if episode.musical-guest or episode.episode-guest-stars %}
+                        <div class="episode">
+                            {% if episode.musical-guest%}
+                                <b>Musical Guest:</b>
+                                <div class="episode__musical-guests">{{ episode.musical-guest}}</div>
+                                <div class="episode__musical-guest-summary">{{ episode.musical-guest-summary}}</div>
+                                {% endif %}
+                            {% if episode.episode-guest-stars %}
+                                <b>Guest Stars:</b>
+                                <ul>
+                                    {% for guest in episode.episode-guest-stars %}
+                                    <li>{{ guest.name}} as {{ guest.role }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                    <div class="episode">
+                        <p>Find this episode on:</p>
+                        {% for link in episode.episode-links%}
+                            {% if link.spotify %}
+                                <a href={{ link.spotify }}><i class="fa fa-spotify"></i></a>
+                            {% endif %}
+                            {% if link.audible %}
+                                <a href={{ link.audible }}><i class="fa fa-audible"></i></a>
+                            {% endif %}
+                            {% if link.itunes %}
+                                <a href={{ link.itunes }}><i class="fa fa-itunes"></i></a>
+                            {% endif %}
+                            {% if link.youtube %}
+                                <a href={{ link.youtube }}><i class="fa fa-youtube"></i></a>
+                            {% endif %}
+
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            </div>
+            
+        </div>
+    </div>
+</body>
+ <!--  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script> -->

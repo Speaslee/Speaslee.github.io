@@ -1,0 +1,36 @@
+---
+layout: full-width
+---
+<body>
+    {% if page.background-image %}
+        <style class={{ page.background-style }}>
+            body {
+                background-image: url({{ page.background-image }})
+            }
+        </style>
+    {% endif %}
+    <div class="wrapper{% if page.div-styl%} {{page.div-style}}{% endif %}">
+        <div class={{ page.style }}>
+            <h1 class={{ page.title-style }}>{{ page.title }}</h1>
+            <div class>
+                <p> {{ page.summary }}</p>
+            </div>
+            {% if page.poster %}
+                <img src={{ page.poster }} class="movie-poster" alt={{ page.poster-alt }}>
+            {% endif %}
+            <h4>Cast</h4>
+            <ul>
+                {% for cast in page.cast-members %}
+                    <li>{{ cast.name }} as {{ cast.role }}</li>
+                {% endfor %}
+            </ul>
+            <h4>Crew</h4>
+            <ul>
+                {% for cast in page.crew-members %}
+                    <li>{{ cast.name }} as {{ cast.role }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+ <!--  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script> -->       

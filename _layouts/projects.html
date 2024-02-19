@@ -1,0 +1,29 @@
+---
+layout: sidebar
+---
+<h1 class="header-link">Our Projects</h1>
+<p>We are so excited at Sassyspaceman Creative Works to be working on so many exciting projects. Check out what we have in the works!</p>
+<br>
+<h4 class="project-header">Podcasts</h4>
+<hr>
+<div class="collection-three-columns projects">
+    {% for podcast in page.podcasts %}
+        <div class="project">
+            <a href={{ podcast.url }}> {{ podcast.title }}</a>
+            <br>
+            <img src={{ podcast.thumbnail }} class="episode-thumbnail" alt={{ podcast.image-alt}}>
+        </div>
+    {% endfor %}
+</div>
+
+<h4 class="project-header">Movies</h4>
+<hr>
+<div class="collection-three-columns projects">
+    {% for movie in page.movies %}
+        <div class="project">
+            <a href={{ movie.url }}> {{ movie.title }}</a>
+            <br>
+            <img src={{ movie.thumbnail }} class="episode-thumbnail" alt={{ movie.image-alt}}>
+        </div>
+    {% endfor %}
+</div>
