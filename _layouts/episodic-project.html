@@ -3,13 +3,13 @@
 ---
  <body>
     {% if page.background-image %}
-        <style class={{ background-style }}>
+        <style class={{ page.background-style }}>
             body {
                 background-image: url({{ page.background-image }})
             }
         </style>
     {% endif %}
-    <div class="wrapper{% if page.div-styl%} {{page.div-style}}{% endif %}">
+    <div class="wrapper{% if page.div-style%} {{page.div-style}}{% endif %}">
         <div class={{ page.style }}>
             <h1 class={{ page.title-style }}>{{ page.title }}</h1>
             <div class>
@@ -18,7 +18,7 @@
             <div class={{ page.grid-style }}>
                 {% for episode in page.episodes %}
                     <div class="episode">
-                        <div class="episode__name{% if grid-title-style%} {{page.grid-title-style}}{% endif %}">{{ episode.episode-title }}</div>
+                        <div class="episode__name{% if page.grid-title-style %} {{page.grid-title-style}}{% endif %}">{{ episode.episode-title }}</div>
                         <img src={{ episode.episode-thumbnail }} class="episode__image">
                     </div>
                     <div class="episode">

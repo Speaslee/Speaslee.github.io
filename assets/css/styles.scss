@@ -139,6 +139,11 @@ a {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
+.adrift-wrapper{
+    background-color: rgba(64, 28, 46, 0.9);
+    padding-top: 15px;
+    height: 100%;
+}
 // Grid formatting
 .collection-four-columns {
     display: grid;
