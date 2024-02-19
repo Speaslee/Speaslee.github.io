@@ -42,6 +42,13 @@ html {
 hr {
     background-color: #e80c7f  !important;
 }
+.socialmedia {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 // Font Formating
 @font-face {
@@ -87,7 +94,7 @@ a {
     color: #e80c7f  !important;
   }
 
-  .project-header {
+.project-header {
     color:#e80c7f !important;
     font-family: "Streetwear";
 }
@@ -95,7 +102,7 @@ a {
     font-family: "Futura";
     color: #DA1E48  !important;
 }
-  .title-class {
+.title-class {
     color:#DA1E48 !important;
     font-family: "Futura";
     font-size: 20px;
