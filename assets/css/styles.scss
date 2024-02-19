@@ -154,6 +154,14 @@ a {
     padding-top: 15px;
     height: 100%;
 }
+.movie-poster{
+    position: relative;
+    display: flex;
+    height: 400px;
+    margin: auto;
+    max-width: 100%;
+    justify-content: center;
+}
 // Grid formatting
 .collection-four-columns {
     display: grid;

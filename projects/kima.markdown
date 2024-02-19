@@ -1,6 +1,7 @@
 ---
 title: Kima
 summary: Kima is a goblin and has adventures
+poster: /assets/images/kima/poster.jpeg
 cast-members:
 - name: Daniel Peaslee
   role: Kima
