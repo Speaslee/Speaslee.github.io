@@ -24,7 +24,7 @@ episodes:
   - name: Sophia Peaslee
     role: Lt. Ann Steadman
   - name: Chilaquiles
-    role: Moral support
+    role: Morale support
   episode-links:
   - spotify: "https://open.spotify.com/episode/742BTI5Xv7u9s5jB3dpVH3?si=c4f889bafdd54c04" 
     audible: https://open.spotify.com/episode/742BTI5Xv7u9s5jB3dpVH3?si=c4f889bafdd54c04

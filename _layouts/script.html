@@ -1,0 +1,40 @@
+---
+layout: full-width
+---
+<body>
+    {% if page.background-image %}
+        <style class={{ page.background-style }}>
+            body {
+                background-image: url({{ page.background-image }})
+            }
+        </style>
+    {% endif %}
+    <div class="wrapper{% if page.div-styl%} {{page.div-style}}{% endif %}">
+        <div class={{ page.style }}>
+            <h1 class={{ page.title-style }}>{{ page.title }}</h1>
+            {% if page.poster %}
+             <img src={{ page.poster }} class="movie-poster" alt={{ page.poster-alt }}>
+            {% endif %}
+            <h5><b>Written By:</b> {{page.writer}}</h5>
+            <h5><b>Logline:</b> {{page.logline}}</h5>
+            <h5><b>Synopsis:</b> {{page.synopsis}}</h5>
+            <h5><b>Request The Script</b></h5>
+            <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/05ee67c3a17687a79e59ab47c76881ef?embedded=1"></div>
+
+            <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+            <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+            
+            <!-- Get notified when the form is submitted, add your own code below: -->
+            <script>
+            const formkeepEmbed = document.querySelector('#formkeep-embed')
+            
+            formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+              console.log('Submitting form...')
+            })
+            
+            formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+              console.log('Submitted form...')
+            })
+            </script>
+            <h5><b>Pitch Deck:</b></h5>
+            <object data={{page.pitchdeck}} width="1000" height="1000" type='application/pdf'></object>

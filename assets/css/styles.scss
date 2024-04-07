@@ -56,7 +56,7 @@ hr {
 // Font Formating
 @font-face {
     font-family: "Streetwear";
-    src: url(/fonts/streetware.eot);
+    src: url(/fonts/streetwear.eot);
     src: url(/fonts/Streetwear.otf) format('opentype'),
          url(/fonts/streetwear-webfont.ttf) format('truetype'),
         url(/fonts/streetwear-webfont.woff2) format('woff2'),
@@ -67,6 +67,10 @@ hr {
 @font-face {
     font-family: "Futura";
     src: url(/fonts/Futura.ttc);
+}
+@font-face {
+    font-family: "ITC SerifGothic";
+    src: url(/fonts/ITC-SerifGothic.ttf)
 }
 
 a {
@@ -154,6 +158,30 @@ a {
     padding-top: 15px;
     height: 100%;
 }
+.kima-title{
+    font-family: "ITC SerifGothic";
+    color: #dac805;
+    text-align: center;
+    padding-top: 15px;
+}
+.kima-genre{
+    font-family: "ITC SerifGothic";
+    color: #dac805;
+    text-align: center;
+}
+.kima-wrapper{
+    background-color: rgba(64, 28, 46, 0.9);
+    padding-top: 15px;
+    height: 100%;
+}
+.kima-visability {
+    background-color: rgba(0,0,0,0.75);
+}
+.kima-body{
+    top: 10%;
+    font-family: "Futura";
+    color:rgb(6, 98, 15);
+}
 .movie-poster{
     position: relative;
     display: flex;
@@ -192,7 +220,11 @@ a {
       margin-top: 0px;
       max-width: 800px;
   } 
+.btsImages {
+    display:none;
+    padding-bottom: 15px;
 
+}
 .episode {
     &__image {
        display: block;

@@ -12,6 +12,8 @@ layout: sidebar
             <a href={{ podcast.url }}> {{ podcast.title }}</a>
             <br>
             <img src={{ podcast.thumbnail }} class="episode-thumbnail" alt={{ podcast.image-alt}}>
+            <br>
+            <p>{{ podcast.status }}</p>
         </div>
     {% endfor %}
 </div>
@@ -24,6 +26,22 @@ layout: sidebar
             <a href={{ movie.url }}> {{ movie.title }}</a>
             <br>
             <img src={{ movie.thumbnail }} class="episode-thumbnail" alt={{ movie.image-alt}}>
+            <br>
+            <p>{{ movie.status }}</p>
+        </div>
+    {% endfor %}
+</div>
+
+<h4 class="project-header">Scripts</h4>
+<hr>
+<div class="collection-three-columns projects">
+    {% for script in page.scripts %}
+        <div class="project">
+            <a href={{ script.url }}> {{ script.title }}</a>
+            <br>
+            <img src={{ script.thumbnail }} class="episode-thumbnail" alt={{ script.image-alt}}>
+            <br>
+            <p>{{ script.status }}</p>
         </div>
     {% endfor %}
 </div>
