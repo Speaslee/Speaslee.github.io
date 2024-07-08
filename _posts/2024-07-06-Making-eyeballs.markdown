@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Making Eyeballs"
+title: "Making a plateful of eyeballs"
 date: 2024-07-06 11:40:16 -0700
 categories: bts
 author: Sophia Peaslee
+type: How We Did It
 ---
 The idea for <a href="/projects/noevil">"No Evil"</a> came to me quite suddenly and out of nowhere: Coming up behind a well dressed woman sitting in a black void, a hand lifting a cover on the plate in front of her to reveal a dish full of eyeballs that she proceeds to eat.
 

@@ -5,7 +5,7 @@
 <ul>
     {% for post in site.posts %}
         <li>
-            <a href="{{ post.url }}" class="sidebar-links">{{ post.title }}</a>
+            <b>{{post.type}}:</b> <a href="{{ post.url }}" class="sidebar-links">{{ post.title }}</a>
         </li>
     {% endfor %}
 </ul>
