@@ -19,7 +19,7 @@ layout: full-width
             <h5><b>Logline:</b> {{page.logline}}</h5>
             <h5><b>Synopsis:</b> {{page.synopsis}}</h5>
             {% if page.laurels %}
-            <h5 class={{ page.subtitle-style }}> Awards: </h5>
+            <h5 class={{ page.subtitle-style }}><b>Awards:</b> </h5>
             <div class="collection-three-columns projects">
               {% for laurel in page.laurels %}
               <div class="project">
@@ -31,6 +31,9 @@ layout: full-width
               {% endfor %}
             </div>
             {% endif %}
+            <br>
+            <hr>
+            <br>
             <h5><b>Request The Script</b></h5>
             <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/05ee67c3a17687a79e59ab47c76881ef?embedded=1"></div>
 
@@ -49,5 +52,8 @@ layout: full-width
               console.log('Submitted form...')
             })
             </script>
+            <br>
+            <hr>
+            <br>
             <h5><b>Pitch Deck:</b></h5>
             <object data={{page.pitchdeck}} width="1000" height="1000" type='application/pdf'></object>
