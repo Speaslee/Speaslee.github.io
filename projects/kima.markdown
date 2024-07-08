@@ -107,7 +107,12 @@ behind-the-scenes-photos:
   title: Puppet Cage
   caption: Making The Puppeteer Cage
 title-style: kima-title
+subtitle-style: kima-subtitle
 genre-style: kima-genre
+nav-style: kima-visability
+background-image: /assets/images/kima/background.jpg
+background-style: adrift-bgimage
+div-style: kima-wrapper
 style: kima-body
 layout: movie        
 ---

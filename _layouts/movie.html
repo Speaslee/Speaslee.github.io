@@ -9,7 +9,15 @@ layout: full-width
             }
         </style>
     {% endif %}
-    <div class="wrapper{% if page.div-styl%} {{page.div-style}}{% endif %}">
+    {% if page.background-color %}
+    <style class={{ page.style }}>
+        body {
+            background-color: black;
+        }
+    </style>
+    {% endif %}
+
+    <div class="wrapper{% if page.div-style%} {{page.div-style}}{% endif %}">
         <div class={{ page.style }}>
             <h1 class={{ page.title-style }}>{{ page.title }}</h1>
             <p class={{ page.genre-style }}><i>{{page.genre}}</i></p>
@@ -19,25 +27,25 @@ layout: full-width
             {% if page.poster %}
                 <img src={{ page.poster }} class="movie-poster" alt={{ page.poster-alt }}>
             {% endif %}
-            <h4 class={{ page.title-style }}>Cast</h4>
-            <ul>
+            <h4 class={{ page.subtitle-style }}>Cast</h4>
+            <ul class="movieul">
                 {% for cast in page.cast-members %}
-                    <li>{{ cast.name }} as {{ cast.role }}</li>
-                {% endfor %}
+                <li>{{ cast.name }} as {{ cast.role }}</li>
+                    {% endfor %}
             </ul>
-            <h4 class={{ page.title-style }}>Crew</h4>
-            <ul>
+            <h4 class={{ page.subtitle-style }}>Crew</h4>
+            <ul class="movieul">
                 {% for cast in page.crew-members %}
                     <li><b>{{ cast.name }}:</b> {{ cast.role }}</li>
                 {% endfor %}
             </ul>
             {% if page.special-thanks %}
-                <h4 class={{ page.title-style }}>Special Thanks To:</h4>
+                <h4 class={{ page.subtitle-style }}>Special Thanks To:</h4>
                 <p><i>{{ page.special-thanks }}</i></p>
             {% endif %}
             {% if page.behind-the-scenes-photos %}
-                <h4 class={{ page.title-style }}>Behind The Scenes:</h4>
-                <div style="max-width: 500px">
+                <h4 class={{ page.subtitle-style }}>Behind The Scenes:</h4>
+                <div class="bts-slideshow" style="max-width: 500px">
                     {% for image in page.behind-the-scenes-photos %}
                         <div class="btsImages">
                             <img src={{ image.image }} alt={{ image.title }} style="width:100%">
