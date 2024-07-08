@@ -72,6 +72,10 @@ hr {
     font-family: "ITC SerifGothic";
     src: url(/fonts/ITC-SerifGothic.ttf)
 }
+@font-face {
+    font-family: "Eurostile";
+    src: url(/fonts/eurostile-2/eurostile.TTF);
+}
 
 a {
     color: #DA1E48 !important;
@@ -224,6 +228,19 @@ a {
 }
 .recipe-header{
     color:#DA1E48;
+}
+//Panopticon
+.panopticon-title{
+    font-family: "Eurostile";
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+}
+.panopticon-body{
+    top: 10%;
+    font-family: "Eurostile";
+    padding-left: 5%;
+    padding-right: 5%;
 }
 // Grid formatting
 .collection-four-columns {

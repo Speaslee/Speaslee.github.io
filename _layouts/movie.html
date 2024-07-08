@@ -43,6 +43,19 @@ layout: full-width
                 <h4 class={{ page.subtitle-style }}>Special Thanks To:</h4>
                 <p><i>{{ page.special-thanks }}</i></p>
             {% endif %}
+            {% if page.laurels %}
+              <h4 class={{ page.subtitle-style }}> Awards: </h4>
+              <div class="collection-three-columns projects">
+                {% for laurel in page.laurels %}
+                <div class="project">
+                    <i>{{ laurel.placement }}</i> in <b>{{ laurel.contest }}</b>
+                    <br>
+                    <img src={{ laurel.laurel-picture }} class="episode-thumbnail">
+                </div>
+
+                {% endfor %}
+              </div>
+            {% endif %}
             {% if page.behind-the-scenes-photos %}
                 <h4 class={{ page.subtitle-style }}>Behind The Scenes:</h4>
                 <div class="bts-slideshow" style="max-width: 500px">

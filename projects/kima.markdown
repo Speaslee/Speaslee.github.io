@@ -21,21 +21,17 @@ cast-members:
   role: Treasure Chest
 crew-members:
 - name: Daniel Peaslee
-  role: Director
-- name: Daniel Peaslee
-  role: Writer
+  role: Writer/Director
 - name: Thomas Gray
   role: Assistant Director
-- name: Shnanon Reeves
+- name: Shanon Reeves
   role: Director of Photography
 - name: Devon Ludlow
   role: Puppeteer
 - name: Talon Stahmer
   role: Location Manager
 - name: Rosalia Peaslee
-  role: Puppetmaker
-- name: Rosalia Peaslee
-  role: Production Designer
+  role: Puppetmaker/Production Designer
 - name: Sophia Peaslee
   role: Assistant Production Design
 - name: Emmanuelle John
@@ -46,8 +42,8 @@ crew-members:
   role: John Webber
 - name: Set PA
   role: Sophia Friedman
-- name: Location Sound
-  role: Martin Criss
+- name: Martin Criss
+  role: Location Sound
 behind-the-scenes-photos:
 - image: https://sassyspaceman.s3.amazonaws.com/kima-bts/IMG_0209.jpg
   title: Post
