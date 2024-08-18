@@ -10,13 +10,16 @@ title-style: panopticon-title
 style: panopticon-body
 laurels:
 - contest: Emerging Screenwriters Action and Adventure Screenplay Competition 2024
-  placement: Quarter Finalist
-  laurel-picture: /assets/images/laurels/ESAAQuarter.png
+  placement: Semi-Finalist
+  laurel-picture: /assets/images/laurels/ESActionSemi.png
 - contest: Emerging Screenwriters Drama Screenplay Competition 2024
-  placement: Quarter Finalist
+  placement: Quarter-Finalist
   laurel-picture: /assets/images/laurels/ESDramaQuarter.png
+- contest: Table Read My ScreenPlay Hollywood Competition 2024
+  placement: Quarter-Finalist
+  laurel-picture: /assets/images/laurels/TRHQuarter.png
 - contest: Filmatic-Inroads Fellowship Season 7
-  placement: Quarterfinalist
+  placement: Quarter-Finalist
   laurel-picture: /assets/images/laurels/isfv.png
 - contest: The Finish Line Script Competition 2023-24
   placement: Honerable Mention

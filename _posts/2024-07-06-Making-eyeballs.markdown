@@ -97,13 +97,13 @@ Using 2 cups of water and 3 tablespoons of agar I brought that mixture to a boil
 
 <img src="/assets/images/noevil/eyeball/translucenteyeballagar.JPG">
 
-Finally we seemed to be getting somewhere! The mixture was too translucent and my attempts at adding the eye details were a failure but shape/size/texture were all getting there. And the eyeballs were surprisingly easy to paint. I adjusted the recipe, using coconut milk instead of water, adding sugar to make the whole experience a little more palatable and made them again.
+Finally we seemed to be getting somewhere! The mixture was too translucent and my attempts at adding the eye details were a failure but shape/size/texture were all getting there. And the eyeballs were surprisingly easy to paint with food coloring. I adjusted the recipe, using coconut milk instead of water, adding sugar to make the whole experience a little more palatable and made them again.
 
 <img src="/assets/images/noevil/eyeball/paintingeyeball.jpg">
 
 Houston, we have eyeballs.
 
-Using food color they were easy. Each eyeball was wrapped in rice paper soaked in cherry juice. 
+We did discover the the food coloring would continue to bleed into the rest of the eyeball over time, so if crispness of lines is important for you, paint your eyeballs fresh. Each eyeball was wrapped in rice paper soaked in cherry juice. 
 
 <img src="/assets/images/noevil/eyeball/ricepapercherry.jpg">
 
