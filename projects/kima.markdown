@@ -2,7 +2,7 @@
 title: Kima
 genre: Fantasy/Adventure
 summary: In a medieval fantasy setting, a goblin named Kima grows up in an orphanage for wayward monsters where a human woman raises her on tales of knights and heroes. She is displaced when a mysterious party burns down the orphanage while she is out hunting without permission. With her surrogate mother and fellow monsters missing, she sets out to find them. But in order to become a hero, she needs to both prove herself, gather companions and resources and overcome prejudice.   In this short film, Kima begins her adventuring career, looking for adventuring work at a seedy tavern with amusing results. This short film featuring puppets, miniatures, practical effects and fantasy adventure.
-poster: /assets/images/kima/poster.jpeg
+poster: /assets/images/kima/poster.png
 special-thanks: Stagecoach Foundation, Santa Fe Community College, Elizabeth Stahmer, Milton Riess, Dolina Cafe and Bakery, Sage Bakehouse, Resourceful Santa Fe
 cast-members:
 - name: Daniel Peaslee
@@ -24,7 +24,7 @@ crew-members:
   role: Writer/Director
 - name: Thomas Gray
   role: Assistant Director
-- name: Shanon Reeves
+- name: Shannan Reeve
   role: Director of Photography
 - name: Devon Ludlow
   role: Puppeteer

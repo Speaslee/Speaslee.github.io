@@ -17,7 +17,7 @@ podcasts:
 movies:
 - title: Kima
   url: /projects/kima
-  thumbnail: /assets/images/kima/thumbnail.png
+  thumbnail: /assets/images/kima/poster.png
   image-alt: Kima Thumbnails
   status: Currently in Post Production!
 - title: No Evil
