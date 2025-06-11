@@ -9,6 +9,9 @@ synopsis: Spencer is serving a five-year prison sentence for a crime he didnʼt 
 title-style: panopticon-title
 style: panopticon-body
 laurels:
+- contest: Imaginarium Convention Screenplay Awards 2025
+  placement: Finalist
+  laurel-picture: /assets/images/laurels/imaginarium.png
 - contest: Emerging Screenwriters Action and Adventure Screenplay Competition 2024
   placement: Semi-Finalist
   laurel-picture: /assets/images/laurels/ESActionSemi.png
