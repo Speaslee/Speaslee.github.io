@@ -1,24 +1,42 @@
 ---
 title: The Black Dog
 genre: Horror
-summary: While suffering from insomnia, a young woman is followed by an increasingly threatening black dog. No one else can see evidence of the black dog and she thinks she may be going insane.<br>A classic horror short. Currently set to begin production in November, 2024. Check out and support our fundraising campaign!
+summary: While suffering from insomnia, a young woman is followed by an increasingly threatening black dog that no one else can see.
 poster: /assets/images/theblackdog/thumbnail.png
+special-thanks: Stagecoach Foundation, Santa Fe Community College, Elizabeth Stahmer, Milton Riess, New Mexico Film Foundation
 cast-members:
 - name: Owee Rae
-  role: Anna
-- name: TBA
+  role: Ana
+- name: Jamie Jung
   role: Dan
 crew-members:
 - name: Sophia Peaslee
   role: Writer/Director
 - name: Daniel Peaslee
-  role: Producer
+  role: Producer and VFX Supervisor
 - name: Ethan Nopah
   role: Director of Photography
+- name: Editor
+  role: Jessica Shobe
+- name: Music
+  role: David Young
 - name: Brandon Martinez
-  role: Cameraman
+  role: First Assistant Photographer
+- name: Tyrell Etsitty
+  role: First Assistant Photographer
 - name: Martin Criss
-  role: Location Sound
+  role: Sound Mixer
+- name: Kyle Bannon
+  role: Lights & Rigging
+- name: Sarah Padilla
+  role: Location Manager
+- name: Rosalia Peaslee
+  role: Art/Prop Designer
+- name: Kenia Robles
+  role: Intern/Puppet Wrangler
+- name: Naomi Gomez
+  role: Makeup
+
 title-style: blackdog-title
 genre-stye: blackdog-genre
 style: blackdog

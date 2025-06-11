@@ -3,12 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: projects
-podcasts:
-- title: Adrift In A Silent Sea
-  url: /projects/adrift
-  thumbnail: /assets/images/adriftimages/s84-27018orig.jpg
-  image-alt: Adrift In A Silent Sea Thumbnails 
-  status: Currently in Pre Production!
+# podcasts:
+# - title: Adrift In A Silent Sea
+#   url: /projects/adrift
+#   thumbnail: /assets/images/adriftimages/s84-27018orig.jpg
+#   image-alt: Adrift In A Silent Sea Thumbnails 
+#   status: Currently in Pre Production!
 # - title: Movie Reasons
 #   url: /projects/moviereasons
 #   thumbnail: /assets/images/moviereasons/thumbnail.jpeg
@@ -29,7 +29,7 @@ movies:
   url: /projects/theblackdog
   thumbnail: /assets/images/theblackdog/thumbnail.png
   image-alt: The Black Dog
-  status: Currently in Pre Production!
+  status: Currently being submitted to festivals!
 scripts:
 - title: Panopticon
   url: /projects/panopticon
