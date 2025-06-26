@@ -16,10 +16,10 @@ crew-members:
   role: Producer and VFX Supervisor
 - name: Ethan Nopah
   role: Director of Photography
-- name: Editor
-  role: Jessica Shobe
-- name: Music
-  role: David Young
+- name: Jessica Shobe
+  role: Editor
+- name: David Young
+  role: Music
 - name: Brandon Martinez
   role: First Assistant Photographer
 - name: Tyrell Etsitty
