@@ -17,7 +17,7 @@ cast-members:
   role: Bar Patron
 - name: Christopher Mcintyre
   role: Bar Patron
-- name: Devon
+- name: Devon Ludlow
   role: Treasure Chest
 crew-members:
 - name: Daniel Peaslee

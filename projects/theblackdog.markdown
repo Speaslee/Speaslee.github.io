@@ -50,4 +50,7 @@ laurels:
 - contest: Killer Shorts
   placement: Quarter Finalist
   laurel-picture: /assets/images/laurels/QF-laurels-2024-png.png
+- contest: Tlachana Fest
+  placement: Official Selection
+  laurel-picture: /assets/images/laurels/tlachana.png
 ---

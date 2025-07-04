@@ -1,7 +1,7 @@
 ---
 title: No Evil
 genre: Horror/Surreal
-summary: A short experimental tryptich using the tenants of the adage "Hear No Evil, See No Evil, Speak No Evil" to illustraate different demons we all face, from addiction to self doubt. <br> Part 1 ~ See-Food - Your eyes are bigger than your stomach. <br> Part 2 ~ Hearsay - Don't let the haters get you down. <br> Part 3 ~ SpeakEasy - What would you do for a drink?
+summary: A short experimental tryptich using the tenants of the adage "Hear No Evil, See No Evil, Speak No Evil" to illustrate different demons we all face, from addiction to self doubt. <br> Part 1 ~ See-Food - Your eyes are bigger than your stomach. <br> Part 2 ~ Hearsay - Don't let the haters get you down. <br> Part 3 ~ SpeakEasy - What would you do for a drink?
 poster: /assets/images/noevil/noevilposter.png
 cast-members:
 - name: Sophia Peaslee
