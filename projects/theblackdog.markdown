@@ -49,7 +49,7 @@ layout: movie
 laurels:
 - contest: Santa Fe International Film Festival
   placement: Honorable Mention
-  laurel-picture: /assets/images/laurels/SFIFF.png  
+  laurel-picture: /assets/images/laurels/SFIFF_w.png  
 - contest: Killer Shorts
   placement: Quarter Finalist
   laurel-picture: /assets/images/laurels/QF-laurels-2024-png.png
