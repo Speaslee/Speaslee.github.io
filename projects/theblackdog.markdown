@@ -47,6 +47,9 @@ nav-style: kima-visability
 div-style: kima-wrapper
 layout: movie
 laurels:
+- contest: Santa Fe International Film Festival
+  placement: Honorable Mention
+  laurel-picture: /assets/images/laurels/SFIFF.png  
 - contest: Killer Shorts
   placement: Quarter Finalist
   laurel-picture: /assets/images/laurels/QF-laurels-2024-png.png
