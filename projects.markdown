@@ -24,7 +24,7 @@ movies:
   url: /projects/noevil
   thumbnail: /assets/images/noevil/noevil.jpg
   image-alt: No Evil
-  status: Currently in Post Production!
+  status: Currently being submitted to festivals!
 - title: The Black Dog
   url: /projects/theblackdog
   thumbnail: /assets/images/theblackdog/thumbnail.png
