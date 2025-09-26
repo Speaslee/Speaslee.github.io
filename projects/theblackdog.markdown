@@ -51,7 +51,7 @@ laurels:
   placement: Honorable Mention
   laurel-picture: /assets/images/laurels/SFIFF_w.png  
 - contest: Killer Shorts
-  placement: Quarter Finalist
+  placement: Official Selection
   laurel-picture: /assets/images/laurels/QF-laurels-2024-png.png
 - contest: Tlachana Fest
   placement: Official Selection
