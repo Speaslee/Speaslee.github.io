@@ -56,6 +56,11 @@ layout: full-width
                 {% endfor %}
               </div>
             {% endif %}
+            {% if page.trailer %}
+                <video width="320" height="240" controls>
+                    <source src={{ page.trailer }}>
+                </video>
+            {% endif %}
             {% if page.behind-the-scenes-photos %}
                 <h4 class={{ page.subtitle-style }}>Behind The Scenes:</h4>
                 <div class="bts-slideshow" style="max-width: 500px">

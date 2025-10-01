@@ -46,6 +46,7 @@ genre-style: blackdog-genre
 nav-style: kima-visability
 div-style: kima-wrapper
 layout: movie
+trailer: https://sassyspaceman.s3.us-east-1.amazonaws.com/trailers/Trailer.mov
 laurels:
 - contest: Santa Fe International Film Festival
   placement: Official Selection
