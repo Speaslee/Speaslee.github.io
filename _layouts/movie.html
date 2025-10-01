@@ -29,7 +29,7 @@ layout: full-width
             {% endif %}
             {% if page.trailer %}
                 <h4 class={{ page.subtitle-style }}>Trailer:</h4>
-                <video width="320" height="240" controls>
+                <video height="400" controls class={{ page.movie-poster }}>
                     <source src={{ page.trailer }}>
                 </video>
             {% endif %}
