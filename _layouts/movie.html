@@ -27,6 +27,12 @@ layout: full-width
             {% if page.poster %}
                 <img src={{ page.poster }} class="movie-poster" alt={{ page.poster-alt }}>
             {% endif %}
+            {% if page.trailer %}
+                <h4 class={{ page.subtitle-style }}>Trailer:</h4>
+                <video width="320" height="240" controls>
+                    <source src={{ page.trailer }}>
+                </video>
+            {% endif %}
             <h4 class={{ page.subtitle-style }}>Cast</h4>
             <ul class="movieul">
                 {% for cast in page.cast-members %}
@@ -55,12 +61,6 @@ layout: full-width
 
                 {% endfor %}
               </div>
-            {% endif %}
-            {% if page.trailer %}
-                <h4 class={{ page.subtitle-style }}>Trailer:</h4>
-                <video width="320" height="240" controls>
-                    <source src={{ page.trailer }}>
-                </video>
             {% endif %}
             {% if page.behind-the-scenes-photos %}
                 <h4 class={{ page.subtitle-style }}>Behind The Scenes:</h4>
