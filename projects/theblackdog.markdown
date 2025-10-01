@@ -62,4 +62,7 @@ laurels:
 - contest: Horrific Women Film Festival
   placement: Honorable Mention
   laurel-picture: /assets/images/laurels/horrific_women.png
+- contest: Tulsa Underground Film Festival
+  placement: Honorable Mention
+  laurel-picture: /assets/images/laurels/Tuffest.png
 ---
