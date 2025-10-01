@@ -59,6 +59,9 @@ laurels:
 - contest: Creative Guts Film Festival
   placement: Official Selection
   laurel-picture: /assets/images/laurels/creative_guts.png
+- contest: lil' spooky fest
+  placement: Semi Finalist
+  laurel-picture: /assets/images/laurels/lilspooky.png
 - contest: Horrific Women Film Festival
   placement: Honorable Mention
   laurel-picture: /assets/images/laurels/horrific_women.png
