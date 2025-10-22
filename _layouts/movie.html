@@ -49,6 +49,14 @@ layout: full-width
                 <h4 class={{ page.subtitle-style }}>Special Thanks To:</h4>
                 <p><i>{{ page.special-thanks }}</i></p>
             {% endif %}
+            {% if page.socialmedia %}
+                <h4 class={{ page.subtitle-style }}>Links</h4>
+                <div class="socialmedia">
+                    {% for social in page.socialmedia %}
+                        <a href="{{ social.url }}"><i class="fa fa-{{ social.icon }}" aria-hidden="true"></i></a>
+                    {% endfor %}
+                </div>
+            {% endif %}
             {% if page.laurels %}
               <h4 class={{ page.subtitle-style }}> Awards: </h4>
               <div class="collection-three-columns projects">

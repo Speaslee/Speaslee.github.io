@@ -69,4 +69,9 @@ laurels:
 - contest: Tulsa Underground Film Festival
   placement: Honorable Mention
   laurel-picture: /assets/images/laurels/Tuffest.png
+socialmedia:
+- url: https://www.imdb.com/title/tt38689665
+  icon: fa fa-imdb
+
+
 ---
