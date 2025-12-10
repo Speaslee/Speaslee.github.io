@@ -28,6 +28,9 @@ laurels:
 - contest: Stranger Days Independent Film Festival
   placement: Official Selection
   laurel-picture: /assets/images/laurels/whitestrangerdays2025.png 
+- contest: Danger Zone Indepenedent Film Festival
+  placement: Official Selection
+  laurel-picture: /assets/images/laurels/dziffh.png 
 behind-the-scenes-photos:
 - image:  https://sassyspaceman.s3.amazonaws.com/attachments-7/400DD60F-12DB-4EFB-AFC8-5845E9F1EF08.JPG
   title: On Set
