@@ -51,19 +51,19 @@ layout: full-width
             {% endif %}
             {% if page.socialmedia %}
                 <h4 class={{ page.subtitle-style }}>Links</h4>
-                <div class="socialmedia">
+                <p>
                     {% for social in page.socialmedia %}
-                        <a href="{{ social.url }}"><i class="fa fa-{{ social.icon }}" aria-hidden="true"></i></a>
+                        <a href="{{ social.url }}"><i class="fa fa-{{ social.icon }}"></i></a>
                     {% endfor %}
-                </div>
+                </p>
             {% endif %}
              {% if page.medialinks %}
                 <h4 class={{ page.subtitle-style }}>Reviews and Articles</h4>
-                <div class="socialmedia">
+                <p>
                     {% for social in page.medialinks %}
-                        <a href="{{ social.url }}">{{social.title}}</a>
+                        <a href="{{ social.url }}">{{social.title }}</a>
                     {% endfor %}
-                </div>
+                </p>
             {% endif %}
             {% if page.laurels %}
               <h4 class={{ page.subtitle-style }}> Awards: </h4>
