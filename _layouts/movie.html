@@ -27,6 +27,15 @@ layout: full-width
             {% if page.poster %}
                 <img src={{ page.poster }} class="movie-poster" alt={{ page.poster-alt }}>
             {% endif %}
+            {% if page.posters %}
+                <div class="bts-slideshow" style="max-width: 500px">
+                    {% for poster in page.posters %}
+                        <div class="btsImages">
+                            <img src={{ poster.posterurl }} class="movie-poster" alt={{ poster.poster-alt }}>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
             {% if page.trailer %}
                 <h4 class={{ page.subtitle-style }}>Trailer:</h4>
                 <video height="400" controls class={{ page.movie-poster }}>
