@@ -57,6 +57,14 @@ layout: full-width
                     {% endfor %}
                 </div>
             {% endif %}
+             {% if page.medialinks %}
+                <h4 class={{ page.subtitle-style }}>Reviews and Articles</h4>
+                <div class="socialmedia">
+                    {% for social in page.medialinks %}
+                        <a href="{{ social.url }}">{{social.title}}</a>
+                    {% endfor %}
+                </div>
+            {% endif %}
             {% if page.laurels %}
               <h4 class={{ page.subtitle-style }}> Awards: </h4>
               <div class="collection-three-columns projects">

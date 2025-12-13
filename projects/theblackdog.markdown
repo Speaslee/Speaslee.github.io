@@ -78,6 +78,12 @@ laurels:
 - contest: Tulsa Underground Film Festival
   placement: Honorable Mention
   laurel-picture: /assets/images/laurels/Tuffest.png
+- contest: Bocas Film Fest
+  placement: Nominee
+  laurel-picture: /assets/images/laurels/bocas.png
+medialinks:
+- url: https://bocasfilmfest.com/2025/11/20/reviewing-nominee-the-black-dog/
+  title: "Bocas Fest: Reviewing Nominee the Black Dog"
 socialmedia:
 - url: https://www.imdb.com/title/tt38689665
   icon: fa fa-imdb
