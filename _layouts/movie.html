@@ -34,6 +34,7 @@ layout: full-width
                             <img src={{ poster.posterurl }} class="movie-poster" alt={{ poster.poster-alt }}>
                         </div>
                     {% endfor %}
+                    <script src="{{ site.baseurl }}{% link assets/js/bts_slideshow.js %}"></script>
                 </div>
             {% endif %}
             {% if page.trailer %}

@@ -5,7 +5,7 @@ summary: A short experimental tryptich using the tenants of the adage "Hear No E
 posters:
 - posterurl: /assets/images/noevil/part1.png
 - posterurl: /assets/images/noevil/part2.png
-- posterurl: /assets/images/noevil/part23.png
+- posterurl: /assets/images/noevil/part3.png
 cast-members:
 - name: Sophia Peaslee
   role: Eyeless woman, Mouthless woman
