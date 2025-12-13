@@ -69,6 +69,9 @@ laurels:
 - contest: lil' spooky fest
   placement: Semi Finalist
   laurel-picture: /assets/images/laurels/lilspooky.png
+- contest: Zed Fest Film Festival & Screenplay Competition
+  placement: Semi Finalist
+  laurel-picture: /assets/images/laurels/zed.png
 - contest: The Bay International Film Festival
   placement: Quarter Finalist
   laurel-picture: /assets/images/laurels/thebay25.png
