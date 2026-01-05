@@ -9,12 +9,12 @@ synopsis: Spencer is serving a five-year prison sentence for a crime he didnʼt 
 title-style: panopticon-title
 style: panopticon-body
 laurels:
+- contest: Beaufort International Film Festival 2026
+  placement: Official Selection
+  laurel-picture: /assets/images/laurels/biff.png
 - contest: Imaginarium Convention Screenplay Awards 2025
   placement: Finalist
   laurel-picture: /assets/images/laurels/imaginarium.png
-- contest: Beaufort International Film Festival 2025
-  placement: Official Selection
-  laurel-picture: /assets/images/laurels/biff.png
 - contest: Emerging Screenwriters Action and Adventure Screenplay Competition 2024
   placement: Semi-Finalist
   laurel-picture: /assets/images/laurels/ESActionSemi.png
