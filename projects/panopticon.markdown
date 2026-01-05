@@ -12,6 +12,9 @@ laurels:
 - contest: Imaginarium Convention Screenplay Awards 2025
   placement: Finalist
   laurel-picture: /assets/images/laurels/imaginarium.png
+- contest: Beaufort International Film Festival 2025
+  placement: Official Selection
+  laurel-picture: /assets/images/laurels/biff.png
 - contest: Emerging Screenwriters Action and Adventure Screenplay Competition 2024
   placement: Semi-Finalist
   laurel-picture: /assets/images/laurels/ESActionSemi.png
