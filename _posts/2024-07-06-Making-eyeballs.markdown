@@ -32,7 +32,7 @@ I started by taking a lot of inspiration from the work Janice Poon, an amazing f
 <li> 1/2 Fuji apple </li>
 <li> 1 egg </li>
 <li> 1 inch fresh ginger </li>
-<li> 2 green oninons sliced </li>
+<li> 2 green onions sliced </li>
 <li> 2 tablespoons soy sauce </li>
 <li> 3 cloves fresh garlic </li>
 <li> 1/4 cup panko </li>
