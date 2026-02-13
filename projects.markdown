@@ -30,6 +30,10 @@ movies:
   thumbnail: /assets/images/theblackdog/thumbnail.png
   image-alt: The Black Dog
   status: Currently being submitted to festivals!
+- title: Silver Slugs
+  url: /projects/silverslugs
+  thumbnail: /assets/images/silverslugs/standin.png
+  image-alt: Silver Slugs
 scripts:
 - title: Panopticon
   url: /projects/panopticon
