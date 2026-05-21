@@ -35,6 +35,9 @@ laurels:
 - contest: Dead Weird Film Fest 2026
   placement: Official Selection
   laurel-picture: /assets/images/laurels/dead_weird_official_selection_white.png
+- contest: Long Beach Underground Film Festival
+  placement: Official Selection
+  laurel-picture: /assets/images/laurels/lbuff.png 
 - contest: Film Fest at the Farm
   placement: Honorable Mention
   laurel-picture: /assets/images/laurels/farm.png

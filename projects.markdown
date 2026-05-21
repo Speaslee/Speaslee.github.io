@@ -34,6 +34,7 @@ movies:
   url: /projects/silverslugs
   thumbnail: /assets/images/silverslugs/standin.png
   image-alt: Silver Slugs
+  status: Currently in Post Production!
 scripts:
 - title: Panopticon
   url: /projects/panopticon
