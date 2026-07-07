@@ -63,6 +63,12 @@ laurels:
 - contest: ScorpiusFest Film Festival
   placement: Official Selection
   laurel-picture: /assets/images/laurels/scorpius.png
+- contest: Glowflare Horror Film Festival
+  placement: Official Selection
+  laurel-picture: /assets/images/laurels/glowflare-2006.png
+- contest: San Fransisco Frozen Film Festival
+  placement: Official Selection
+  laurel-picture: /assets/images/laurels/sffff.png
 - contest: Momoxca International Fantastic Film Festival
   placement: Official Selection
   laurel-picture: /assets/images/laurels/momoxoca.png
