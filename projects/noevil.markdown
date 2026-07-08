@@ -38,6 +38,9 @@ laurels:
 - contest: Long Beach Underground Film Festival
   placement: Official Selection
   laurel-picture: /assets/images/laurels/lbuff.png 
+- contest: Fall HorrorHound Film Festival
+  placement: Quarter Finalist
+  laurel-picture: /assets/images/laurels/horrorhound.png 
 - contest: Film Fest at the Farm
   placement: Honorable Mention
   laurel-picture: /assets/images/laurels/farm.png

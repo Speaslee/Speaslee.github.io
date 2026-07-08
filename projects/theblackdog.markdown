@@ -78,6 +78,9 @@ laurels:
 - contest: Zed Fest Film Festival & Screenplay Competition
   placement: Semi Finalist
   laurel-picture: /assets/images/laurels/zed.png
+- contest: Fall HorrorHound Film Festival
+  placement: Quarter Finalist
+  laurel-picture: /assets/images/laurels/horrorhound.png 
 - contest: The Bay International Film Festival
   placement: Quarter Finalist
   laurel-picture: /assets/images/laurels/thebay25.png
