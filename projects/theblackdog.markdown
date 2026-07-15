@@ -51,9 +51,6 @@ laurels:
 - contest: Santa Fe International Film Festival
   placement: Official Selection
   laurel-picture: /assets/images/laurels/SFIFF_w.png  
-- contest: Killer Shorts
-  placement: Quarter Finalist
-  laurel-picture: /assets/images/laurels/QF-laurels-2024-png.png
 - contest: Tlachana Fest
   placement: Official Selection
   laurel-picture: /assets/images/laurels/tlachana.png
@@ -84,6 +81,9 @@ laurels:
 - contest: The Bay International Film Festival
   placement: Quarter Finalist
   laurel-picture: /assets/images/laurels/thebay25.png
+- contest: Killer Shorts
+  placement: Quarter Finalist
+  laurel-picture: /assets/images/laurels/QF-laurels-2024-png.png
 - contest: Horrific Women Film Festival
   placement: Honorable Mention
   laurel-picture: /assets/images/laurels/horrific_women.png
