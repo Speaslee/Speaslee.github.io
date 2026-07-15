@@ -37,7 +37,10 @@ laurels:
   laurel-picture: /assets/images/laurels/dead_weird_official_selection_white.png
 - contest: Long Beach Underground Film Festival
   placement: Official Selection
-  laurel-picture: /assets/images/laurels/lbuff.png 
+  laurel-picture: /assets/images/laurels/lbuff.png
+- contest: Atlanta Underground Film Festival
+  placement: Official Selection
+  laurel-picture: /assets/images/laurels/auff.png 
 - contest: Fall HorrorHound Film Festival
   placement: Quarter Finalist
   laurel-picture: /assets/images/laurels/horrorhound.png 
