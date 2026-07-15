@@ -25,7 +25,7 @@ genre-style: blackdog-genre
 nav-style: kima-visability
 div-style: kima-wrapper
 layout: movie
-laurels:
+official-selections:
 - contest: Stranger Days Independent Film Festival
   placement: Official Selection
   laurel-picture: /assets/images/laurels/whitestrangerdays2025.png 
@@ -41,6 +41,7 @@ laurels:
 - contest: Atlanta Underground Film Festival
   placement: Official Selection
   laurel-picture: /assets/images/laurels/auff.png 
+laurels:
 - contest: Fall HorrorHound Film Festival
   placement: Quarter Finalist
   laurel-picture: /assets/images/laurels/horrorhound.png 

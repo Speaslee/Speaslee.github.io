@@ -65,8 +65,21 @@ layout: full-width
                     {% endfor %}
                 </p>
             {% endif %}
+            {% if page.official-selections %}
+                <h4 class={{ page.subtitle-style }}>Official Selections:</h4>
+                <div class="collection-three-columns projects">
+                    {% for selection in page.official-selections %}
+                    <div class="project">
+                        <i>{{ selection.placement }}</i> in <b>{{ selection.contest }}</b>
+                        <br>
+                        <img src={{ selection.laurel-picture }} class="episode-thumbnail">
+                    </div>
+
+                    {% endfor %}
+                </div>
+            {% endif %}
             {% if page.laurels %}
-              <h4 class={{ page.subtitle-style }}> Awards: </h4>
+              <h4 class={{ page.subtitle-style }}> Other Awards: </h4>
               <div class="collection-three-columns projects">
                 {% for laurel in page.laurels %}
                 <div class="project">

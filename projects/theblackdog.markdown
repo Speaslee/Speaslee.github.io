@@ -47,7 +47,7 @@ nav-style: kima-visability
 div-style: kima-wrapper
 layout: movie
 trailer: https://sassyspaceman.s3.us-east-1.amazonaws.com/trailers/Trailer.mov
-laurels:
+official-selections:
 - contest: Santa Fe International Film Festival
   placement: Official Selection
   laurel-picture: /assets/images/laurels/SFIFF_w.png  
@@ -69,6 +69,7 @@ laurels:
 - contest: Momoxca International Fantastic Film Festival
   placement: Official Selection
   laurel-picture: /assets/images/laurels/momoxoca.png
+laurels:
 - contest: lil' spooky fest
   placement: Semi Finalist
   laurel-picture: /assets/images/laurels/lilspooky.png
