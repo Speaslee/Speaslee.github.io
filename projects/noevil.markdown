@@ -79,9 +79,6 @@ behind-the-scenes-photos:
 - image: https://sassyspaceman.s3.amazonaws.com/attachments-7/IMG_1037.jpg
   title: Fabrication
   caption: Painted skin drying
-- image: https://sassyspaceman.s3.amazonaws.com/attachments-7/IMG_1133.jph
-  title: Set Dressing
-  caption: Plated Eyeballs
 - image: https://sassyspaceman.s3.amazonaws.com/attachments-7/IMG_1134.jpg
   title: Set Dressing
   caption: Making eye tissue
