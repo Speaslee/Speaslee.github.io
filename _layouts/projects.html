@@ -9,7 +9,7 @@ layout: sidebar
 <div class="collection-three-columns projects">
     {% for movie in page.movies %}
         <div class="project">
-            <a href={{ movie.url }}> {{ movie.title }}</a>
+            <a href={{ movie.url }} class="sidebar-links"> {{ movie.title }}</a>
             <br>
             <img src={{ movie.thumbnail }} class="episode-thumbnail" alt={{ movie.image-alt}}>
             <br>
@@ -35,7 +35,7 @@ layout: sidebar
 <div class="collection-three-columns projects">
     {% for script in page.scripts %}
         <div class="project">
-            <a href={{ script.url }}> {{ script.title }}</a>
+            <a href={{ script.url }} class="sidebar-links"> {{ script.title }}</a>
             <br>
             <img src={{ script.thumbnail }} class="episode-thumbnail" alt={{ script.image-alt}}>
             <br>
