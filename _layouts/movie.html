@@ -29,9 +29,12 @@ layout: full-width
             {% endif %}
             {% if page.trailer %}
                 <h4 class={{ page.subtitle-style }}>Trailer:</h4>
-                <video height="400" controls class={{ page.movie-poster }}>
-                    <source src={{ page.trailer }}>
-                </video>
+                {% if page.trailer contains "vimeo" %}
+                    <iframe src="https://player.vimeo.com/video/1148310330?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="NoEvil Trailer"></iframe><script src="https://player.vimeo.com/api/player.js"></script>                
+                {% else %}
+                    <video height="400" controls class={{ page.movie-poster }}>
+                        <source src={{ page.trailer }}>
+                    </video>
             {% endif %}
             <h4 class={{ page.subtitle-style }}>Cast</h4>
             <ul class="movieul">
